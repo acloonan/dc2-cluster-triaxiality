@@ -1,4 +1,4 @@
-# cluster-triaxiality
+# dc2-cluster-triaxiality
 Galaxy cluster orientation and ellipticity with DC2 simulation data.
 
 ## Short Project Overview
