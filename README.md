@@ -15,6 +15,6 @@ Also, a NERSC computing node is probably required.
 
 Run through `halo_redMcluster_matching.ipynb` first, as the FITS files produced in that notebook will be important in other notebooks.
 
-## Misc Notes
+## Misc. Notes
 
 Pretty much everything here is only applicable to GCR datasets at the moment, maybe even only to cosmoDC2.
