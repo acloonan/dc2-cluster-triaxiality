@@ -1,7 +1,5 @@
 # dc2-cluster-triaxiality
-Galaxy cluster orientation and ellipticity with DC2 simulation data.
-
-Collaboration with [LSST DESC](https://github.com/LSSTDESC).
+Galaxy cluster orientation and ellipticity with DC2 simulation data. Collaboration with [LSST DESC](https://github.com/LSSTDESC).
 
 July 2020 - Present
 
