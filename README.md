@@ -10,7 +10,7 @@ Work currently in progress.
 
 ## Dependencies
 
-Jupyter Notebook or JupyterLab, NumPy, Astropy, Dask, matplotlib, [GCRCatalogs](https://github.com/LSSTDESC/gcr-catalogs), [esutil](https://github.com/esheldon/esutil), likely more to be added.
+Jupyter Notebook or JupyterLab, NumPy, Astropy, Dask, matplotlib, [GCRCatalogs](https://github.com/LSSTDESC/gcr-catalogs), [esutil](https://github.com/esheldon/esutil), more to be added.
 
 Also, a NERSC computing node might be necessary.
 
