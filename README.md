@@ -3,7 +3,7 @@ Calculating galaxy cluster orientation with DC2 simulation data.
 ## Project Overview
 As of now, I'm interested in comparing different proxies for cluster orientation within the [cosmoDC2](https://github.com/LSSTDESC/cosmodc2) simulated dataset. I'll be starting with 2 proxies: cluster member distribution and central member (or, usually, brightest cluster galaxy) ellipticity. More could potentially be added later on.
 
-Work in progress.
+Work currently in progress.
 
 ## Necessary Imports, Packages, Modules, etc.
 
