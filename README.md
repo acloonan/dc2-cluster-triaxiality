@@ -8,7 +8,7 @@ Work currently in progress.
 
 ## Necessary Imports, Packages, Modules, etc.
 
-Jupyter Notebook or JupyterLab, Pythom, Numpy, Astropy, OS, Dask, matplotlib, [GCRCatalogs](https://github.com/LSSTDESC/gcr-catalogs), likely more
+Jupyter Notebook or JupyterLab, Python, Numpy, Astropy, OS, Dask, matplotlib, [GCRCatalogs](https://github.com/LSSTDESC/gcr-catalogs), likely more
 
 Also, a NERSC computing node is probably required.
 
