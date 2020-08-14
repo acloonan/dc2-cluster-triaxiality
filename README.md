@@ -1,5 +1,5 @@
 # dc2-cluster-triaxiality
-Galaxy cluster orientation and ellipticity with DC2 simulation data.
+Galaxy cluster orientation and ellipticity with DC2 simulation data. [LSST DESC](https://github.com/LSSTDESC) collaboration.
 
 ## Short Project Overview
 As of now, I'm interested in comparing different proxies for cluster orientation within the [cosmoDC2](https://github.com/LSSTDESC/cosmodc2) simulated dataset. I'll be starting with two proxies: cluster member distribution and central member (or, usually, brightest cluster galaxy) ellipticity. More could potentially be added later on.
