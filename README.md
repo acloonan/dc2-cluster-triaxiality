@@ -8,7 +8,7 @@ As of now, I'm interested in comparing different proxies for cluster orientation
 
 Work currently in progress.
 
-## Necessary Imports, Packages, Modules, etc.
+## Dependencies
 
 Jupyter Notebook or JupyterLab, NumPy, Astropy, Dask, matplotlib, [GCRCatalogs](https://github.com/LSSTDESC/gcr-catalogs), [esutil](https://github.com/esheldon/esutil), likely more to be added.
 
