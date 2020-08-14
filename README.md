@@ -16,4 +16,4 @@ Also, a NERSC computing node is probably required.
 
 Pretty much everything here is only applicable to GCR datasets at the moment, maybe even only to cosmoDC2.
 
-The cosmoDC2 catalog is a synthetic dataset of galaxies. Clusters are identified using the redMaPPer algorithm, the results of which can be found within GCRCatalogs.
+The primary cosmoDC2 catalog is a dataset of galaxies. Clusters are identified using the redMaPPer algorithm, the results of which can be found within GCRCatalogs.
