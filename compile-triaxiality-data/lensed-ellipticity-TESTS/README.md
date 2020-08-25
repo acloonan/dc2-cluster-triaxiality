@@ -7,4 +7,4 @@ I then started playing around with the `id_cen_0` galaxies. These IDs are found 
 
 As of now, I've been able to tentatively use GCRCatalogs, but I want to try to implement a method utilizing dask dataframes.
 
-**Aug. 24**: Tests using dask dataframes went well, and now I'm working on applying them to all ~3900 redMaPPer BCGs. I'd guess it will show up here on GitHub either tomorrow or Wednesday, as I'll be looking to ask about quantities within the HDF5 files.
+**Aug. 24**: Tests using dask dataframes went well, and now I'm writing a notebook applying that method to all ~3900 of them. I'd guess it will show up here on GitHub either tomorrow or Wednesday, as I'll be looking to ask about quantities within the HDF5 files.
