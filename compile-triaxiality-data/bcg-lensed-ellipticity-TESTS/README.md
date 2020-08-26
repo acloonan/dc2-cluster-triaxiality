@@ -1,4 +1,4 @@
-# lensed-ellipticity-TESTS
+# bcg-lensed-ellipticity-TESTS
 
 This folder includes some ideas I tried or am currently trying out with regards to calculating BCG lensed ellipticity.
 
@@ -7,4 +7,4 @@ I then started playing around with the `id_cen_0` galaxies. These IDs are found 
 
 As of now, I've been able to tentatively use GCRCatalogs, but I want to try to implement a method utilizing dask dataframes.
 
-**Aug. 25**: Tests using dask dataframes went well, and now I'm writing a notebook applying that method to all ~3900 of them. I'd guess it will show up here on GitHub sometime this week, as I'll be looking into quantities within the HDF5 files.
+This is on hold for now, as I'll be looking more at cluster member distribution as a proxy for cluster ellipticity.
