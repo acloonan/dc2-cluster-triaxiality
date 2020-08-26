@@ -7,4 +7,4 @@ I then started playing around with the `id_cen_0` galaxies. These IDs are found 
 
 As of now, I've been able to tentatively use GCRCatalogs, but I want to try to implement a method utilizing dask dataframes.
 
-**Aug. 26**: This is on hold for now, as I'll be looking more at cluster member distribution as a proxy for cluster ellipticity. I've uploaded an idea for a method with dask dataframes, but I'll be shifting gears for now.
+**Aug. 26**: I'm shifting gears for now, towards cluster member distribution as a proxy for cluster ellipticity. I've uploaded an idea for a method with dask dataframes, but this might be the last upload to this folder for some time.
