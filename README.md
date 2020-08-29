@@ -13,9 +13,10 @@ Work currently in progress.
 * Jupyter Notebook or JupyterLab
 * numpy
 * scipy
-* astropy 
-* dask/pandas
 * matplotlib
+* astropy 
+* dask
+* h5py
 * [GCRCatalogs](https://github.com/LSSTDESC/gcr-catalogs)
 * [esutil](https://github.com/esheldon/esutil)
 
