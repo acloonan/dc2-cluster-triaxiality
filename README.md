@@ -12,6 +12,7 @@ Work currently in progress.
 
 * Jupyter Notebook or JupyterLab
 * numpy
+* scipy
 * astropy 
 * dask/pandas
 * matplotlib
