@@ -4,11 +4,11 @@ Galaxy cluster orientation and ellipticity with DC2 simulation data. Collaborati
 July 2020 - Present
 
 ## Short Project Overview
-I'm interested in estimating galaxy cluster ellipticity and orientation within the [cosmoDC2](https://github.com/LSSTDESC/cosmodc2) simulated dataset. I'll be starting by focusing primarily on cluster member distribution using quadrupole moment calculations. 
+[CosmoDC2](https://github.com/LSSTDESC/cosmodc2) is a simulated galaxy catalog, with some ~440 sq degrees of simulated sky and some 2 billion synthetic galaxies. Within the dataset, the [redMaPPer algorithm](https://github.com/erykoff/redmapper) has been used to identify galaxy clusters.
 
-An extension from this would be a curiosity in utilizing and comparing different methods or proxies for such a task. I may look into pursuing something along these lines in the future. One other possible proxy for later on would be the shape and orientation of the brightest cluster galaxy (BCG).
+My overarching goal is the development of a pipeline estimating ellipticity and orientation for identified clusters found in cosmoDC2. I'm currently focusing on using quadrupole moment calculations to profile the distribution of clusters' member galaxies.
 
-Work currently in progress.
+I'm also curious about comparing different methods or proxies for such a task. The distribution of halo particles would be interesting to consider, if there are any accessible catalogs of such information. One other possible proxy would be the shape and orientation of the brightest cluster galaxy (BCG).
 
 ## Dependencies
 
@@ -30,4 +30,4 @@ Also, a NERSC computing node might be necessary.
 
 Pretty much everything here is only applicable to GCR datasets at the moment, maybe even more specifically to cosmoDC2.
 
-The primary cosmoDC2 catalog is a dataset of galaxies. Clusters were identified using the [redMaPPer algorithm](https://github.com/erykoff/redmapper), the results of which can be found within GCRCatalogs.
+Work currently in progress.
