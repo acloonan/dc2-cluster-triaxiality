@@ -4,7 +4,9 @@ Galaxy cluster orientation and ellipticity with DC2 simulation data. Collaborati
 July 2020 - Present
 
 ## Short Project Overview
-I'm interested in estimating galaxy cluster ellipticity and orientation within the [cosmoDC2](https://github.com/LSSTDESC/cosmodc2) simulated dataset. I'd also be curious about utilizing and comparing different methods or proxies for such a task. I'll be starting by focusing primarily on cluster member distribution using quadrupole moment calculations. One other possible proxy for later on would be the shape and orientation of the brightest cluster galaxy (BCG).
+I'm interested in estimating galaxy cluster ellipticity and orientation within the [cosmoDC2](https://github.com/LSSTDESC/cosmodc2) simulated dataset. I'll be starting by focusing primarily on cluster member distribution using quadrupole moment calculations. 
+
+An extension from this would be a curiosity in utilizing and comparing different methods or proxies for such a task. I may look into pursuing something along these lines in the future. One other possible proxy for later on would be the shape and orientation of the brightest cluster galaxy (BCG).
 
 Work currently in progress.
 
