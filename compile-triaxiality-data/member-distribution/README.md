@@ -7,4 +7,5 @@ profiling the each cluster's member distribution. The notebook(s) with this meth
 
 **These are probably the most relevant programs I've added to the entire repository yet. So far, the H5py method has appeared to work properly.**
 
-Also, note that currently, the H5py notebook is over 1 MB, which seems to mean that collaborators cannot edit the document from within GitHub.
+Also, currently, the H5py notebook is over 1 MB, which seems to mean that collaborators cannot edit the document from within GitHub.
+
