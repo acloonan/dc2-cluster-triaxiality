@@ -11,7 +11,7 @@ profiling the each cluster's member distribution. The notebook(s) with this meth
 
 Currently, the H5py notebook is over 1 MB, which seems to mean that collaborators cannot edit the document from within GitHub.
 
-Note that it may be easier to run get_comoving_cartesian_coordinates.ipynb by connecting a NERSC computing node to your local system. To do this, open 2 command line windows and use the following linux commands:
+Note that it may be easier to run get_comoving_cartesian_coordinates.ipynb by connecting a NERSC computing node to your local system. It hasn't seemed to run properly for me on jupyter.nersc.gov, but it has worked just fine when connected to my local machine. To do this, open 2 command line windows and use the following linux commands:
 
 1. **(first window)** Log into NERSC using `ssh <nersc_user>@cori.nersc.gov`.
 2. **(first window)** `module load python`.
