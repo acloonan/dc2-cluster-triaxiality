@@ -8,7 +8,7 @@ July 2020 - Present
 
 My overarching goal is the development of a pipeline estimating ellipticity and orientation for identified clusters found in cosmoDC2. I'm currently focusing on using quadrupole moment calculations to profile the distribution of clusters' member galaxies.
 
-I'm also curious about comparing different methods or proxies for such a task. The distribution of halo particles would be interesting to consider, if there are any accessible catalogs of such information. One other possible proxy would be the shape and orientation of the brightest cluster galaxy (BCG).
+I'm also curious about comparing different methods or proxies for such a task. The distribution of halo particles would be interesting to consider, if there are any accessible catalogs of such information. One other possible proxy would be the shape and orientation of the brightest cluster galaxy (BCG). Note that these are not being developed at the moment, and they only would after I first finish the pipeline using cluster member distribution.
 
 ## Dependencies
 
