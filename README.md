@@ -28,6 +28,6 @@ Also, a NERSC computing node might be necessary.
 
 ## Notes
 
-Pretty much everything here may only applicable to GCR datasets at the moment, maybe even more specifically to cosmoDC2.
+Pretty much everything here may only applicable to DC2 simulations at the moment, maybe even more specifically to cosmoDC2.
 
 Work currently in progress.
