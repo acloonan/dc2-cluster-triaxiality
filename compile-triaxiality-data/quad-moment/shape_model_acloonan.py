@@ -69,12 +69,12 @@ class HaloShape(object):
         self.ptcl_num = 0
         
         #Choose between high_z and low_z folders
-        if (red_cen >= 0.34) & (red_cen < 0.90):
+        '''if (red_cen >= 0.34) & (red_cen < 0.90):
             self.basepath = setup.buzzard_particles_highz_dir()
         elif (red_cen < 0.34):
             self.basepath = setup.buzzard_particles_lowz_dir()
         else:
-            raise Exception('redshift z={} outside of Buzzard range'.format(red_cen))
+            raise Exception('redshift z={} outside of Buzzard range'.format(red_cen))'''
         return 
      
     """
@@ -101,7 +101,10 @@ class HaloShape(object):
         ptcl_converge=True
         conv_iter=0
         while (ptcl_converge) & (not env_converge) & (conv_iter < conv_iter_max):
-            #Performs quad_moment only if there are enough particles
+            #Performs quad_moment only if there are enough members
+            
+            ### What is an appropriate minimum number of members?
+            
             if self.ptcl_num > 100:
                 self.ptcl_num, ptcl_converge, self.axis_ratio, self.axis_dir = self.quad_moment(ptcl_coord)
                 #print self.axis_ratio, self.axis_dir            
@@ -176,6 +179,10 @@ class HaloShape(object):
         for ra_pm in [-ang,0,ang]: # some particle might be in another patch
             for dec_pm in [-ang,0,ang]:
                 for chi_pm in [-r_search,0,r_search]:
+                    
+                    ### Think about this. This appears to call a file with halo
+                    ### particles. How can I call my member table file and query
+                    ### a cluster's members here?
                     
                     filename = query_file(self.basepath, ra=self.ra_cen+ra_pm, dec=self.dec_cen+dec_pm, r=chi_cen+chi_pm)
                     if filename in filename_exists: 
@@ -335,4 +342,4 @@ class HaloShape(object):
 
         return num_mem_ptcl, converge, [a,b,c], np.array([lx_orig, ly_orig, lz_orig])
 
-    
+
